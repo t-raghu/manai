@@ -122,5 +122,12 @@ export PATH=$TOOLS/bin:$PATH
 
 VIM=nvim
 alias zc="$VIM ~/.zshrc"
+alias nv="$VIM ~/.config/nvim/init.lua"
+
+
+hash -d MANAI=$HOME/work/ws/code/www.github.com/t-raghu/manai
+function manai() {
+	cd ~MANAI
+}
 
 
