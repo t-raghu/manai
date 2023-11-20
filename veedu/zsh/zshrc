@@ -120,4 +120,7 @@ export TOOLS=$WS/tools
 export CODE=$WS/code
 export PATH=$TOOLS/bin:$PATH
 
+VIM=nvim
+alias zc="$VIM ~/.zshrc"
+
 
